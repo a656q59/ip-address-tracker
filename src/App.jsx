@@ -7,10 +7,6 @@ import { MapContainer, TileLayer } from 'react-leaflet'
 import { useState,useEffect } from "react";
 import PositionMarker from "./PositionMarker";
 
-
-
-//asdasdasdmn vsl;kwgkl;mgkl;smvb;skmghsdf;lkm
-
 function App() {
       const [address, setAddress] = useState(null);
       const [ipAddress,setIpAddress] = useState("");
